@@ -1,0 +1,151 @@
+layout: {qmk_keyboard: planck/light, qmk_layout: LAYOUT_ortho_4x12}
+layers:
+  Base: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, ESC, A, S, D, F, G, H, J, K, L, ;, '''', LSFT, Z, X, C, V, B, N, M, ',', ., /, ENT, BL STEP, LCTL, LALT, LGUI, Lower,
+    SPC, SPC, Raise, LEFT, DOWN, UP, RGHT]
+  Lower:
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - BSPC
+  - DEL
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - _
+  - +
+  - '{'
+  - '}'
+  - '|'
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - 'Sft+ #'
+  - Sft+ NUBS
+  - HOME
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Lower-Raise
+  - MNXT
+  - VOLD
+  - VOLU
+  - MPLY
+  Raise:
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - DEL
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - \
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - '#'
+  - NUBS
+  - PGUP
+  - PGDN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Lower-Raise
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - MNXT
+  - VOLD
+  - VOLU
+  - MPLY
+  Lower-Raise:
+  - {t: ▽, type: trans}
+  - QK BOOT
+  - DB TOGG
+  - RGB TOG
+  - RGB MOD
+  - RGB HUI
+  - RGB HUD
+  - RGB SAI
+  - RGB SAD
+  - RGB VAI
+  - RGB VAD
+  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ANY(MU NEXT)
+  - ANY(AU ON)
+  - ANY(AU OFF)
+  - AG NORM
+  - AG SWAP
+  - {t: L0, h: toggle}
+  - {t: L1, h: toggle}
+  - {t: L2, h: toggle}
+  - {t: L5, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ANY(AU PREV)
+  - ANY(AU NEXT)
+  - ANY(MU ON)
+  - ANY(MU OFF)
+  - ANY(MI ON)
+  - ANY(MI OFF)
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}

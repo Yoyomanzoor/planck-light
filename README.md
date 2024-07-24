@@ -1,2 +1,11 @@
 # planck-light
-My planck light config files
+
+## Render keymap
+
+Requires [`keymap-drawer`](https://github.com/caksoylar/keymap-drawer).
+
+```sh
+keymap parse -q planck_light_layout_ortho_4x12_mine.json > planck_light.yaml
+keymap draw --ortho-layout '{split: false, rows: 4, columns: 12}' planck_light.yaml > planck_light.svg
+```
+
